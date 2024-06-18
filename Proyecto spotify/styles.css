@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: aliceblue;
+}
+
+header .options{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+header .buttons-lr a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header .options a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header .perfil{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+header .perfil a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav{
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.searcher input{
+    width: 20%;
+    height: 40%;
+    border: none;
+    border-radius: 8px;
+
+}
+
+main{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    /*height: calc(100vh - 50px);*/
+    display: flex;
+}
+
+section{
+    background-color: rgb(0, 0, 0);
+    width: 15%;
+    /*height: 100%;*/
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 10px 1rem;
+    color: aliceblue;
+}
+
+.menu a span{
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.menu p{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 1rem;
+}
+
+aside{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    /*height: 30px;*/
+    display: flex;
+    flex-direction: column;
+    }
+
+.textos{
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: aliceblue;
+}
+
+.tarjetas{
+    background-color: rgb(0, 0, 0);
+    height: 250px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    padding: 20px;
+}
+
+.tarjetas div{
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    color: aliceblue;
+}
+
+.item img{
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.spotify{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: aliceblue;
+}
+
+.spotify img{
+    width: 150px;
+}
+
+.item-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.item-logo img{
+    width: 80px;
+}
+
+.item-logo .fb{
+    width: 40px;
+}
+
+
+.item_list{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.footer-inter{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 70px;
+}
+
+.legal a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.reproduccion{
+    background-color: rgb(0, 0, 0);
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 200px;
+
+}
+
+.botones {
+    color: aliceblue;
+    display: flex;
+}
+
+.botones span{
+    font-size: xxx-large;
+}
+
+
+.barra{
+    color: aliceblue;
+}
+
+.barra input{
+    height: 5px;
+    width: 400px;
+    background-color: rgb(137, 137, 137);
+    border: none;
+    border-radius: 20px;
+}
+
+.controles{
+    background-color: rgb(0, 0, 0);
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.controles{
+    color: aliceblue;
+    display: flex;
+    gap: 10px;
+}
+
+.controles input{
+    height: 5px;
+    width: 70px;
+    background-color: rgb(137, 137, 137);
+    border: none;
+    border-radius: 20px;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
